@@ -1,4 +1,4 @@
 class Character < ActiveRecord::Base
-  belongs_to 
+  belongs_to :show 
   has_many :show, through: :characters
 end
